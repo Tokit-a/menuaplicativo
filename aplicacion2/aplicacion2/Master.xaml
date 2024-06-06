@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="aplicacion2.Master"
+             Title="Master">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <Label Text="TOKITA.SA" Background="yellow"  FontSize="25"/>
+            </StackLayout>
+            <StackLayout>
+            <Button Text="Nosotros" x:Name="btnNosotros" Background="white" ImageSource="" Clicked="btnNosotros_Clicked"/>
+            <Button Text="Produtos" x:Name="btnProductos" Background="white" ImageSource="" Clicked="btnProductos_Clicked"/>
+            <Button Text="Ubicacion" x:Name="btnUbicacion" Background="white" ImageSource="" Clicked="btnUbicacion_Clicked"/>
+            <Button Text="Contactos" x:Name="btnContactos" Background="white" ImageSource="" Clicked="btnContactos_Clicked"/>
+            </StackLayout>
+
+
+
+
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
